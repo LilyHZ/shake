@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         //要求当前页面支持对摇动事件可编辑的支持
         UIApplication.sharedApplication().applicationSupportsShakeToEdit = true
